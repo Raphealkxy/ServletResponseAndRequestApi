@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>ResponseServlet1</servlet-name>
+    <servlet-class>cn.itcast.servlet.response.demo1.ResponseServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseServlet2</servlet-name>
+    <servlet-class>cn.itcast.servlet.response.demo2.ResponseServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseServlet3</servlet-name>
+    <servlet-class>cn.itcast.servlet.response.demo3.ResponseServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseServlet4</servlet-name>
+    <servlet-class>cn.itcast.servlet.response.demo4.ResponseServlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseServlet5</servlet-name>
+    <servlet-class>cn.itcast.servlet.response.demo5.ResponseServlet5</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseServlet6</servlet-name>
+    <servlet-class>cn.itcast.servlet.response.demo6.ResponseServlet6</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseServlet7</servlet-name>
+    <servlet-class>cn.itcast.servlet.response.demo7.ResponseServlet7</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RequestServlet1</servlet-name>
+    <servlet-class>cn.itcast.servlet.request.demo1.RequestServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RequestServlet2</servlet-name>
+    <servlet-class>cn.itcast.servlet.request.demo2.RequestServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RequestServlet3</servlet-name>
+    <servlet-class>cn.itcast.servlet.request.demo3.RequestServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RequestServlet4</servlet-name>
+    <servlet-class>cn.itcast.servlet.request.demo4.RequestServlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RequestServlet5</servlet-name>
+    <servlet-class>cn.itcast.servlet.request.demo5.RequestServlet5</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AServlet</servlet-name>
+    <servlet-class>cn.itcast.servlet.request.demo6.AServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BServlet</servlet-name>
+    <servlet-class>cn.itcast.servlet.request.demo6.BServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MainServlet1</servlet-name>
+    <servlet-class>cn.itcast.servlet.request.demo7.MainServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MainServlet2</servlet-name>
+    <servlet-class>cn.itcast.servlet.request.demo7.MainServlet2</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ResponseServlet1</servlet-name>
+    <url-pattern>/response1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseServlet2</servlet-name>
+    <url-pattern>/response2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseServlet3</servlet-name>
+    <url-pattern>/response3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseServlet4</servlet-name>
+    <url-pattern>/response4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseServlet5</servlet-name>
+    <url-pattern>/response5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseServlet6</servlet-name>
+    <url-pattern>/response6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseServlet7</servlet-name>
+    <url-pattern>/response7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestServlet1</servlet-name>
+    <url-pattern>/request1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestServlet2</servlet-name>
+    <url-pattern>/request2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestServlet3</servlet-name>
+    <url-pattern>/request3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestServlet4</servlet-name>
+    <url-pattern>/request4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestServlet5</servlet-name>
+    <url-pattern>/request5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AServlet</servlet-name>
+    <url-pattern>/a</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BServlet</servlet-name>
+    <url-pattern>/b</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainServlet1</servlet-name>
+    <url-pattern>/main1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainServlet2</servlet-name>
+    <url-pattern>/main2</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

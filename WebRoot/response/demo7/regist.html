@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function change(){
+		// 重新加载验证码图片 
+		// 方法二：如果图片缓存
+		document.getElementById("myimg").src = "/day06/response7?"+new Date().getTime(); 
+	}
+</script>
+</head>
+<body>
+<!-- 模拟用户注册 -->
+<form>
+	用户名<input type="text" /><br/>
+	密码 <input type="password" /><br/>
+	<!-- 图片 由Servlet生成的 -->
+	请输入验证码 <input type="text" name="checkcode"/> <img src="/day06/response7" onclick="change()" id="myimg" style="cursor: pointer;"/><br/>
+	<input type="submit" value="注册" />
+</form>
+</body>
+</html>
